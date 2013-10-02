@@ -1,4 +1,4 @@
-name = rocketship
+name = rocketship-config
 core = 7.x
 package = Features
 dependencies[] = node
