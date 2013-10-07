@@ -20,5 +20,3 @@ features[field_instance][] = node-issue_page-field_issue_tag_display
 features[node][] = issue
 features[node][] = issue_page
 features[taxonomy][] = issue_tags
-features[user_permission][] = access news feeds
-features_exclude[dependencies][aggregator] = aggregator
