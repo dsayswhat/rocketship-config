@@ -17,6 +17,14 @@ function rocketship_config_node_info() {
       'title_label' => t('Title'),
       'help' => '',
     ),
+    'issue_page' => array(
+      'name' => t('Issue page'),
+      'base' => 'node_content',
+      'description' => t('<em>Issue pages</em> can be constructed to display a specific set of tagged issues, grouped by their status.'),
+      'has_title' => '1',
+      'title_label' => t('Title'),
+      'help' => '',
+    ),
   );
   return $items;
 }
